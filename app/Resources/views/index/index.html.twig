@@ -1,0 +1,23 @@
+{% extends 'layout.html.twig' %}
+{% block content %}
+    <ul id="slide-out" class="side-nav blue lighten-1 z-depth-2">
+        <li><a href="#propos" class="white-text">A propos</a></li>
+        <li><a href="#formation" class="white-text">Formation </a></li>
+        <li><a href="#projet" class="white-text">Projets</a></li>
+        <li><a href="#comp" class="white-text">Compétences</a></li>
+        <li><a href="#aussi" class="white-text">Mais aussi</a></li>
+    </ul>
+
+    <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-large open-menu"><i class="material-icons blue lighten-1 z-depth-2 white-text circle">menu</i></a>
+
+    <span id="propos" class="scrollspy"></span>
+    {% include 'aPropos/aPropos.html.twig' %}
+    <span id="formation" class="scrollspy"></span>
+    {% include 'formation/formation.html.twig' %}
+    <span id="projet" class="scrollspy"></span>
+    {% include 'projets/projet.html.twig' %}
+    <span id="comp" class="scrollspy"></span>
+    {% include 'competences/competences.html.twig' %}
+    <span id="aussi" class="scrollspy"></span>
+    {% include 'aussi/aussi.html.twig' %}
+{% endblock %}
