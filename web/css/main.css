@@ -5,6 +5,7 @@
     position: fixed !important;
     bottom: 5%;
     left: 2%;
+    z-index: 2000 !important;
 }
 
 
@@ -14,51 +15,57 @@
 .container-propos
 {
 
-    background-image: url("../images/paper-1217311_1920.jpg");
+    background-image: url("../images/abstract-1867838_1920.jpg");
     min-width: 100% !important;
-    min-height: 100vh !important;
+    height: 100vh !important;
 
 }
 
-.a-propos
+.a-propos-img-text
 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
+    padding-top: 6%;
 
 }
 
 .photo
 {
     width: 350px !important;
-    border: 5px solid #42a5f5;
 }
 
-.a-propos-description
+.a-propos-nom
 {
     margin-left: 50px;
     text-align: center;
 }
 
-.a-propos-description h1
+.a-propos-nom h1
 {
     font-weight: bold;
     font-size: 5em;
 }
 
-.a-propos-description p
+.a-propos-description
 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-top: 25px;
 }
 
-.a-propos-description hr
+.a-propos-description h4
+{
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+
+.a-propos-description p
 {
     margin-bottom: 15px;
+    font-size: 1.5em;
 }
+
 
 
 

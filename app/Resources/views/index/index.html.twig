@@ -1,14 +1,14 @@
 {% extends 'layout.html.twig' %}
 {% block content %}
-    <ul id="slide-out" class="side-nav blue lighten-1 z-depth-2">
-        <li><a href="#propos" class="white-text">A propos</a></li>
-        <li><a href="#formation" class="white-text">Formation </a></li>
-        <li><a href="#projet" class="white-text">Projets</a></li>
-        <li><a href="#comp" class="white-text">Compétences</a></li>
-        <li><a href="#aussi" class="white-text">Mais aussi</a></li>
+    <ul id="slide-out" class="side-nav grey lighten-3 z-depth-2">
+        <li><a href="#propos" class="blue-text text-lighten-1">A propos</a></li>
+        <li><a href="#formation" class="blue-text text-lighten-1">Formation </a></li>
+        <li><a href="#projet" class="blue-text text-lighten-1">Projets</a></li>
+        <li><a href="#comp" class="blue-text text-lighten-1">Compétences</a></li>
+        <li><a href="#aussi" class="blue-text text-lighten-1">Mais aussi</a></li>
     </ul>
 
-    <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-large open-menu"><i class="material-icons blue lighten-1 z-depth-2 white-text circle">menu</i></a>
+    <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-large open-menu"><i class="material-icons hamburger  red darken-1 z-depth-2 white-text circle">menu</i></a>
 
     <span id="propos" class="scrollspy"></span>
     {% include 'aPropos/aPropos.html.twig' %}
