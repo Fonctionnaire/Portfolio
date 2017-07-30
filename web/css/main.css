@@ -142,3 +142,35 @@
     margin-bottom: 75px;
     height: 650px !important;
 }
+
+/* COMPETENCES */
+
+.titre-comp
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-title
+{
+    font-size: 0.65em !important;
+    margin-bottom: -15px !important;
+    font-weight: bold;
+}
+
+.card-image
+{
+    border-right: 1px solid black;
+}
+
+.sous-card-comp
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container-comp
+{
+    padding-bottom: 50px;
+}
