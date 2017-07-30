@@ -8,6 +8,17 @@
     z-index: 2000 !important;
 }
 
+.page-footer
+{
+    padding-top: 0 !important;
+    margin-top: 50px;
+}
+
+.linkedin
+{
+    font-size: 1.2em !important;
+    font-weight: bold;
+}
 
 /* A PROPOS */
 
@@ -173,4 +184,38 @@
 .container-comp
 {
     padding-bottom: 50px;
+}
+
+/* MAIS AUSSI */
+
+.titre-aussi
+{
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.icone-aussi
+{
+    transition: 1s;
+}
+
+.icone-aussi:hover
+{
+    transform: scale(1.5);
+}
+
+.text-aussi
+{
+    margin-top: 50px;
+    margin-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    width: 100%;
+    min-height: 250px;
+}
+
+.text-aussi p
+{
+    font-size: 1.5em;
+    margin-bottom: 35px;
 }
