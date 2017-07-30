@@ -16,8 +16,10 @@
 {
 
     background-image: url("../images/abstract-1867838_1920.jpg");
+    background-repeat: no-repeat;
     min-width: 100% !important;
     height: 100vh !important;
+    min-height: 100vh !important;
 
 }
 
@@ -35,6 +37,7 @@
 .photo
 {
     width: 350px !important;
+    border-radius: 5%;
 }
 
 .a-propos-nom
@@ -45,19 +48,18 @@
 
 .a-propos-nom h1
 {
-    font-weight: bold;
     font-size: 5em;
 }
 
 .a-propos-description
 {
-    margin-top: 25px;
+    margin-top: 60px;
 }
 
 .a-propos-description h4
 {
     font-size: 3em;
-    margin-bottom: 25px;
+    margin-bottom: 90px;
 }
 
 .a-propos-description p
@@ -66,6 +68,77 @@
     font-size: 1.5em;
 }
 
+/* FORMATION */
+.parallax-container {
+    height: 400px !important;
+}
 
+.container-formation
+{
+    width: 100% !important;
+}
 
+.presentation-formation h2
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.presentation-formation p
+{
+    margin-bottom: 35px;
+}
+
+.presentation-formation a
+{
+    margin-bottom: 35px;
+}
+
+.carousel-projet
+{
+    width: 100%;
+}
+
+.screen-projet
+{
+    margin-top: 10px;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+.screen-projet-deux
+{
+    margin-top: 15px;
+    max-width: 300px;
+    max-height: 600px;
+}
+
+#modal1 p, #modal2 p, #modal3 p, #modal4 p, #modal5 p, #modal6 p
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.contraintes
+{
+    margin-left: 5%;
+    margin-bottom: 25px;
+}
+
+.contraintes li
+{
+    margin-bottom: 10px;
+}
+
+.plus-value
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.carousel
+{
+    margin-top: 35px;
+    margin-bottom: 75px;
+    height: 650px !important;
+}
