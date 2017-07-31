@@ -192,16 +192,6 @@
     margin-bottom: 75px;
 }
 
-.icone-aussi
-{
-    transition: 1s;
-}
-
-.icone-aussi:hover
-{
-    transform: scale(1.5);
-}
-
 .text-aussi
 {
     margin-top: 50px;
@@ -212,8 +202,8 @@
     min-height: 250px;
 }
 
-.text-aussi p
+.icone-aussi p
 {
-    font-size: 1.5em;
-    margin-bottom: 35px;
+    font-size: 1.2em;
+    margin-top: 25px;
 }
