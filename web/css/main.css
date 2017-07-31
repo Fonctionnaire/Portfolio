@@ -25,11 +25,9 @@
 
 .container-propos
 {
-
-    background-image: url("../images/abstract-1867838_1920.jpg");
-    background-repeat: no-repeat;
     min-width: 100% !important;
     height: 100vh !important;
+    max-height: 100vh !important;
     min-height: 100vh !important;
 
 }
@@ -37,7 +35,7 @@
 .a-propos-img-text
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -47,24 +45,24 @@
 
 .photo
 {
-    width: 350px !important;
+    width: 150px !important;
     border-radius: 5%;
 }
 
 .a-propos-nom
 {
-    margin-left: 50px;
+
     text-align: center;
 }
 
 .a-propos-nom h1
 {
-    font-size: 5em;
+    font-size: 1.2em;
 }
 
 .a-propos-description
 {
-    margin-top: 60px;
+    padding-top: 15%;
 }
 
 .a-propos-description h4
