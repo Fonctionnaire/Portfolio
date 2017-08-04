@@ -209,3 +209,8 @@
     font-size: 1.2em;
     margin-top: 25px;
 }
+
+@media all and (max-width: 1024px)
+{
+
+}
