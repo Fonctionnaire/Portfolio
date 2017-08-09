@@ -188,6 +188,12 @@
     display: flex;
     border-top: 1px solid black;
     padding-top: 25px;
+    justify-content: space-around;
+}
+
+#star-comp li i
+{
+    font-size: 1.4rem !important;
 }
 
 .container-comp
