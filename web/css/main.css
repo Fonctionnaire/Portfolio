@@ -115,14 +115,14 @@
     margin-top: 45px;
 }
 
-.card-content
+.card-form
 {
     min-height: 150px !important;
     max-height: 174px !important;
 
 }
 
-.card-content p
+.card-form p
 {
     margin-bottom: 15px !important;
 }
@@ -177,16 +177,17 @@
     font-weight: bold;
 }
 
-.card-image
+.img-comp img
 {
-    border-right: 1px solid black;
+    min-height: 110px !important;
+    max-height: 110px !important;
 }
 
-.sous-card-comp
+#star-comp
 {
     display: flex;
-    flex-direction: row;
-
+    border-top: 1px solid black;
+    padding-top: 25px;
 }
 
 .container-comp
